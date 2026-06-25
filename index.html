@@ -36,7 +36,7 @@
     margin-top:22px;
     padding:14px 34px;
     border-radius:40px;
-    font-size:26px;
+    font-size:25px;
     font-weight:800;
     background:linear-gradient(90deg,#ff45a5,#54d8ff);
   }
@@ -79,30 +79,29 @@
     line-height:1.45;
     max-width:230px;
   }
-.phone-wrap{
-  width:100%;
-  max-width:230px;
-  height:330px;
-  margin:12px auto 0;
-  border-radius:18px;
-  border:2px solid rgba(255,255,255,.15);
-  overflow:hidden;
-  background:#111735;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-}
-
-.phone{
-  width:100%;
-  height:100%;
-  display:block;
-  object-fit:contain;
-}
-
+  .phone-wrap{
+    width:100%;
+    max-width:230px;
+    height:330px;
+    margin:12px auto 0;
+    border-radius:18px;
+    border:2px solid rgba(255,255,255,.15);
+    overflow:hidden;
+    background:#111735;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .phone{
+    width:100%;
+    height:100%;
+    display:block;
+    object-fit:contain;
+  }
   .note{
     margin-top:18px;
     font-size:14px;
+    line-height:1.4;
     color:#e7e7ff;
   }
   .rewards{
@@ -148,6 +147,20 @@
   }
   .reward:nth-child(2) .big{color:#55cfff}
   .reward:nth-child(3) .big{color:#a565ff}
+
+  .auto-box{
+    margin-top:24px;
+    padding:18px;
+    border-radius:14px;
+    background:rgba(255,255,255,.06);
+    border:1px solid rgba(255,255,255,.12);
+    font-size:17px;
+    line-height:1.6;
+    max-width:900px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+
   .tip{
     margin:26px auto 0;
     max-width:820px;
@@ -156,6 +169,7 @@
     background:linear-gradient(90deg,#3d167c,#6c25c7);
     color:#fff;
     font-size:17px;
+    line-height:1.5;
     text-align:center;
   }
   .mirror{
@@ -193,6 +207,7 @@
     color:#ffd900;
     font-weight:800;
   }
+
   @media(max-width:900px){
     .steps{grid-template-columns:1fr 1fr}
     .hero h1{font-size:40px}
@@ -215,7 +230,7 @@
 
     <section class="hero">
       <h1>7 Days Unlimited<br><span>Free Spins</span></h1>
-      <div class="pill">4 Steps to Claim Your Reward</div>
+      <div class="pill">Activate Once, Earn Free Spins for 7 Days</div>
     </section>
 
     <section class="steps">
@@ -223,17 +238,23 @@
       <div class="card">
         <div class="num">1</div>
         <h2>Click “Opt In”</h2>
-        <p>Click <span class="highlight">Opt In</span> to activate your 7 Days Unlimited Free Spins promotion.</p>
+        <p>
+          Click <span class="highlight">Opt In</span> to activate your
+          <span class="highlight">7 Days Unlimited Free Spins</span> promotion.
+        </p>
         <div class="phone-wrap">
           <img class="phone" src="https://ricobr.ft-crm.com/media-api/serve/b32d29fa-7b45-43b7-967f-d6782224c7aa_Step_1.png" alt="Step 1 - Opt In">
         </div>
-        <div class="note">After Opt In, the popup will close.</div>
+        <div class="note">After Opt In, the popup will close automatically.</div>
       </div>
 
       <div class="card">
         <div class="num">2</div>
         <h2>Go to Newbie → Limited-Time</h2>
-        <p>From the lobby, tap the <span class="highlight">Newbie</span> tab and open the <span class="highlight">Limited-Time</span> category.</p>
+        <p>
+          From the lobby, tap the <span class="highlight">Newbie</span> tab and open the
+          <span class="highlight">Limited-Time</span> category.
+        </p>
         <div class="phone-wrap">
           <img class="phone" src="https://ricobr.ft-crm.com/media-api/serve/13e9914f-ec62-4d57-ad93-4d0e3a4537f9_Step_2.png" alt="Step 2 - Newbie Limited-Time">
         </div>
@@ -241,8 +262,11 @@
 
       <div class="card">
         <div class="num">3</div>
-        <h2>Find the Promotion</h2>
-        <p>Find <span class="highlight">7 Days Unlimited Free Spins</span> and click <span class="highlight">Deposit Now</span>.</p>
+        <h2>Click Deposit Now</h2>
+        <p>
+          Find <span class="highlight">7 Days Unlimited Free Spins</span> and click
+          <span class="highlight">Deposit Now</span> to continue.
+        </p>
         <div class="phone-wrap">
           <img class="phone" src="https://ricobr.ft-crm.com/media-api/serve/b6f34183-09e8-4d63-91d3-a66b49e3460c_step_3.png" alt="Step 3 - Deposit Now">
         </div>
@@ -250,12 +274,17 @@
 
       <div class="card">
         <div class="num">4</div>
-        <h2>Choose It in Cashier</h2>
-        <p>Before submitting your deposit, make sure you select <span class="highlight">7 Days Unlimited Free Spins</span> as your promotion.</p>
+        <h2>Select Bonus Code Once</h2>
+        <p>
+          For your first deposit, select the bonus code
+          <span class="highlight">7 Days Unlimited Free Spins</span> before submitting.
+        </p>
         <div class="phone-wrap">
           <img class="phone" src="https://ricobr.ft-crm.com/media-api/serve/12ab57a5-05ea-4565-b3ef-f98279db6b9c_step_4.png" alt="Step 4 - Cashier Promotion">
         </div>
-        <div class="note">Free Spins will be credited after a successful qualifying deposit.</div>
+        <div class="note">
+          You only need to select this bonus once. Future qualifying deposits will receive Free Spins automatically.
+        </div>
       </div>
 
     </section>
@@ -265,7 +294,7 @@
 
       <div class="reward-grid">
         <div class="reward">
-          <div class="top">Deposit R$30</div>
+          <div class="top">Deposit R$30+</div>
           <div class="bottom">
             <span class="big">20</span>
             FREE SPINS
@@ -273,7 +302,7 @@
         </div>
 
         <div class="reward">
-          <div class="top">Deposit R$50</div>
+          <div class="top">Deposit R$50+</div>
           <div class="bottom">
             <span class="big">50</span>
             FREE SPINS
@@ -281,17 +310,24 @@
         </div>
 
         <div class="reward">
-          <div class="top">Deposit R$100</div>
+          <div class="top">Deposit R$100+</div>
           <div class="bottom">
             <span class="big">150</span>
             FREE SPINS
           </div>
         </div>
       </div>
+
+      <div class="auto-box">
+        <strong style="color:#FFD900;">After your first successful claim:</strong><br><br>
+        Every deposit that meets the minimum amount during your 7-day activation period will automatically receive Free Spins.<br><br>
+        Your Free Spins will be credited directly to
+        <span class="highlight">My Rewards → Rewards</span>.
+      </div>
     </section>
 
     <div class="tip">
-      💡 Tip: You have 7 days after activation to make a qualifying deposit and claim your Free Spins.
+      💡 Activate once, deposit once with the bonus selected, then every qualifying deposit within 7 days will automatically receive Free Spins.
     </div>
 
     <div class="mirror">
